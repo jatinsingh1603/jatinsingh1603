@@ -24,13 +24,13 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="profile-assets/blinkit.png" alt="Blinkit" width="100" /><br />
+      <img src="profile-assets/blinkit-badge.svg" alt="Blinkit" width="124" height="48" /><br />
       <h3>Blinkit · $1,500 awarded</h3>
       <p>Arbitrary file read in the Android application.</p>
       <a href="https://jatin.swiftsane.com/security/blinkit-apk-arbitrary-file-read/">Open the case record</a>
     </td>
     <td width="50%" valign="top">
-      <img src="profile-assets/kraken-icon.png" alt="Kraken" width="38" height="38" /><br />
+      <img src="profile-assets/kraken-icon.png" alt="Kraken" width="48" height="48" /><br />
       <h3>Kraken · $500 awarded</h3>
       <p>Critical security misconfiguration in the desktop application. Resolved.</p>
       <a href="https://jatin.swiftsane.com/security/kraken-desktop-misconfiguration/">Open the case record</a>
@@ -41,7 +41,7 @@
 <details>
 <summary><strong>Open the remaining research files: Google, Meta, IRCTC, NorthCap and Meesho</strong></summary>
 
-### <img src="profile-assets/google.svg" alt="Google" width="75" />
+### <img src="profile-assets/google-badge.svg" alt="Google" width="99" height="48" />
 
 - **Chrome DevTools MCP:** access-control and redirect-validation bypass. Acknowledged by Google; a fix was submitted in a pull request at Google's request. [Case record](https://jatin.swiftsane.com/security/google-chrome-devtools-mcp-acl-bypass/).
 - **Google SSO:** session persistence after logout in a third-party application. Reported through Google Bug Hunters. [Case record](https://jatin.swiftsane.com/security/google-sso-session-persistence/).
@@ -55,12 +55,12 @@
 
 - **DOM-based XSS:** reported through CERT-In and acknowledged by CERT-In. [Case record](https://jatin.swiftsane.com/security/irctc-dom-xss/).
 
-### <img src="profile-assets/ncu.svg" alt="The NorthCap University" width="98" />
+### <img src="profile-assets/ncu-badge.svg" alt="The NorthCap University" width="122" height="99" />
 
 - **Website and ERP:** XSS and an availability issue found during authorised testing and reported to the university. [Case record](https://jatin.swiftsane.com/security/northcap-web-erp/).
 - **Biometric attendance:** insecure protocols and access-control concerns found during authorised testing and reported to the university. [Case record](https://jatin.swiftsane.com/security/northcap-biometric-access/).
 
-### <img src="profile-assets/meesho.svg" alt="Meesho" width="90" />
+### <img src="profile-assets/meesho-badge.svg" alt="Meesho" width="114" height="45" />
 
 - **Android application:** arbitrary code injection identified. No bounty or vendor acknowledgement is recorded. [Case record](https://jatin.swiftsane.com/security/meesho-apk-arbitrary-code-injection/).
 

@@ -22,6 +22,10 @@ six-second trace introduces the evidence folder and workflow; reduced-motion
 preferences disable the animation. The complete illustration remains visible
 when animation is unavailable. No remote fonts or scripts are needed.
 
+Four organisation marks have a light SVG backing so their original dark
+lettering remains readable in GitHub's light and dark themes. Regenerate the
+backings from the unmodified source logos with `python3 render_logo_badges.py`.
+
 GitHub controls the surrounding profile layout and typography. Source and image
 links are relative to this repository, so the README also previews on a branch.
 
