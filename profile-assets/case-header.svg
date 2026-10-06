@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="582" viewBox="0 0 1280 582" role="img" aria-labelledby="title desc">
+<title id="title">Jatin Kumar Singh · Security + Automation</title>
+<desc id="desc">An evidence folder connects investigation, validation, and repeatable workflows. Red, black, and ivory artwork matching Jatin's portfolio.</desc>
+
+<style>
+  text { font-family: Arial, Helvetica, sans-serif; }
+  .headline { font-weight: 700; letter-spacing: -4px; }
+  .trace { stroke-dasharray: 100; stroke-dashoffset: 0; animation: reveal 6s ease-out 1 both; }
+  @keyframes reveal { 0%, 12% { stroke-dashoffset: 100; } 85%, 100% { stroke-dashoffset: 0; } }
+  @media (prefers-reduced-motion: reduce) { .trace { animation: none; } }
+</style>
+
+<rect x="1" y="1" width="1278" height="580" rx="32" fill="#101012" stroke="#353538" stroke-width="2"/>
+
+<path d="M790 132V451" stroke="#353538" stroke-width="2"/>
+<g transform="translate(60 43) scale(.78)">
+<rect width="64" height="64" rx="14" fill="#ed3025"/>
+<path d="M49 29A20 20 0 1 0 29 49V42A13 13 0 1 1 42 29H49Z" fill="#101012"/>
+<path d="M53 34H46A12 12 0 0 1 34 46V53A19 19 0 0 0 53 34Z" fill="#101012"/>
+<path d="M29 22a5 5 0 0 0-2.25 9.47L25 38h8l-1.75-6.53A5 5 0 0 0 29 22Z" fill="#101012"/>
+</g>
+<text x="130" y="77" fill="#f7f5f1" font-size="28" font-weight="600">Jatin Kumar Singh</text>
+<text x="1218" y="75" fill="#c9c7c4" font-size="21" text-anchor="end" letter-spacing="1.8">CASE NOTES / 01</text>
+<text class="headline" x="57" y="230" fill="#f7f5f1" font-size="106">SECURITY</text>
+<text class="headline" x="57" y="334" fill="#ed3025" font-size="89">+ AUTOMATION</text>
+<text x="62" y="398" fill="#d0ceca" font-size="26" letter-spacing=".3">INVESTIGATE. VALIDATE. AUTOMATE.</text>
+<g transform="translate(862 115) scale(.93)">
+<g transform="rotate(-6 170 120)">
+  <rect x="62" y="0" width="236" height="235" rx="14" fill="#f7f5f1"/>
+  <rect x="86" y="29" width="82" height="7" rx="3.5" fill="#101012"/>
+  <rect x="86" y="47" width="154" height="5" rx="2.5" fill="#858481"/>
+  <rect x="86" y="77" width="167" height="5" rx="2.5" fill="#b6b3ad"/>
+  <rect x="86" y="91" width="144" height="5" rx="2.5" fill="#b6b3ad"/>
+  <path d="M84 115H213" stroke="#ed3025" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="264" cy="39" r="12" fill="none" stroke="#ed3025" stroke-width="3"/>
+  <path d="m258 39 4 4 7-8" fill="none" stroke="#ed3025" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path d="M0 116V93a16 16 0 0 1 16-16h93a18 18 0 0 1 13 6l24 26h191a17 17 0 0 1 17 17v115a19 19 0 0 1-19 19H19a19 19 0 0 1-19-19Z" fill="#1d1d20" stroke="#616166" stroke-width="2"/>
+<path d="M1 120h352" stroke="#747479" stroke-width="2"/>
+<rect x="23" y="142" width="116" height="35" rx="6" fill="#ed3025"/>
+<text x="81" y="166" fill="#101012" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="1">EVIDENCE</text>
+<g transform="translate(265 177) scale(.8)">
+  <circle cx="27" cy="27" r="22" fill="none" stroke="#f7f5f1" stroke-width="4"/>
+  <path d="m43 43 17 17" stroke="#f7f5f1" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="27" cy="27" r="5" fill="#ed3025"/>
+</g>
+<path d="M23 217h118M23 231h80" stroke="#68686d" stroke-width="3" stroke-linecap="round"/>
+<path d="M177 261v30M57 291h240M57 291v20M177 291v20M297 291v20" fill="none" stroke="#555559" stroke-width="2"/>
+<path class="trace" pathLength="100" d="M177 261v30M57 291h240M57 291v20M177 291v20M297 291v20" fill="none" stroke="#ed3025" stroke-width="3" stroke-linecap="round"/>
+<g fill="#19191c" stroke="#6e6e73" stroke-width="2">
+  <rect x="29" y="311" width="56" height="56" rx="16"/>
+  <rect x="149" y="311" width="56" height="56" rx="16"/>
+  <rect x="269" y="311" width="56" height="56" rx="16"/>
+</g>
+<g fill="none" stroke="#f7f5f1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="54" cy="336" r="9"/>
+  <path d="m61 343 7 7"/>
+  <path d="m177 324 12 5v10c0 9-12 16-12 16s-12-7-12-16v-10Z"/>
+  <path d="m172 339 4 4 7-8" stroke="#ed3025"/>
+  <path d="M290 331h14M290 347h14M285 336v6M309 336v6"/>
+  <rect x="280" y="326" width="10" height="10" rx="3"/>
+  <rect x="304" y="326" width="10" height="10" rx="3"/>
+  <rect x="280" y="342" width="10" height="10" rx="3"/>
+  <rect x="304" y="342" width="10" height="10" rx="3" stroke="#ed3025"/>
+</g>
+</g>
+<path d="M60 494h1160" stroke="#353538" stroke-width="2"/>
+<text x="62" y="544" fill="#f7f5f1" font-size="24">Find the cause. Build the fix.</text>
+<text x="1218" y="544" fill="#c9c7c4" font-size="24" text-anchor="end">jatin.swiftsane.com</text>
+
+</svg>
