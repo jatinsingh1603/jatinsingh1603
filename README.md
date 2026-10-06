@@ -12,7 +12,7 @@
 <a href="CASEBOOK.md#security-research">
   <picture>
     <source media="(max-width: 600px)" srcset="profile-assets/research-board-mobile.svg" />
-    <img src="profile-assets/research-board.svg" alt="Open the research casebook. Two paid bounties total $2,000: Blinkit $1,500 and Kraken $500, resolved. Other records cover Google, Meta, IRCTC, NorthCap and Meesho, with individual outcomes recorded in the casebook." width="100%" />
+    <img src="profile-assets/research-board.svg" alt="Open the research casebook. Two awarded bounties total $2,000: Blinkit $1,500 and Kraken $500, resolved. Other records cover Google, Meta, IRCTC, NorthCap and Meesho, with individual outcomes recorded in the casebook." width="100%" />
   </picture>
 </a>
 
