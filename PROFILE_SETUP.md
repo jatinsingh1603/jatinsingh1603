@@ -1,75 +1,70 @@
 # Profile maintenance
 
-## Display this README on the profile
+This public repository is named `jatinsingh1603`, so GitHub renders its root
+`README.md` on the account profile.
 
-GitHub displays the root README of a public repository whose name exactly matches the owner's username.
-For this account, that repository name is `jatinsingh1603`.
+## The case-file design
 
-If this repository is still named `Readme`, rename it to `jatinsingh1603` under **Settings → General → Repository name**.
-Keep its visibility public. The images use relative paths and will continue working after the rename.
+The README shares the portfolio's red (`#ed3025`), black (`#101012`) and ivory
+palette. It uses native Markdown and HTML for readable text, links, tables and
+expandable evidence. The cover is a small, self-contained SVG, with a separate
+mobile composition selected by a `picture` element.
 
-## Refreshing activity
-
-The **Refresh profile cards** workflow runs daily at 02:17 UTC (07:47 India time).
-Run it manually from the Actions tab when needed. GitHub can delay scheduled runs and can disable scheduled workflows after 60 days without repository activity.
-
-To run locally with Python 3.12:
+Regenerate the original cover artwork with Python's standard library:
 
 ```sh
-python update_profile.py
+python3 render_case_art.py
 ```
 
-No personal access token, Python package installation, paid widget or external statistics service is required.
-The workflow uses its built-in repository token only to commit the updated cards.
+Commit both `profile-assets/case-header.svg` and
+`profile-assets/case-header-mobile.svg` with generator changes. A single
+six-second trace introduces the evidence folder and workflow; reduced-motion
+preferences disable the animation. The complete illustration remains visible
+when animation is unavailable. No remote fonts or scripts are needed.
 
-The updater reads the public GitHub contribution calendar and public user endpoint.
-Counts represent GitHub contribution events, not lines of code, coding hours or independently verified project outcomes.
-The longest streak, best day, total and monthly bars cover only the date range saved in `activity.json`.
-Average per active day excludes zero-contribution days.
-The current streak includes yesterday when today has no contributions yet; the calculation uses UTC.
+Four organisation marks have a light SVG backing so their original dark
+lettering remains readable in GitHub's light and dark themes. Regenerate the
+backings from the unmodified source logos with `python3 render_logo_badges.py`.
 
-The initial and final calendar months can be partial months.
-The JSON snapshot includes fetch time and every date/count pair for inspection.
-Malformed, stale or incomplete responses fail before replacing the saved cards.
-The displayed numbers remain authentic; the design does not add decorative contributions.
+GitHub controls the surrounding profile layout and typography. Source and image
+links are relative to this repository, so the README also previews on a branch.
 
-## Editing the appearance
+## Content and evidence
 
-Edit `render_profile.py`, then run:
+The October 2026 portfolio records in `jatinsingh1603/Portfolio/content` supply
+the current career, findings, projects, awards and qualifications. The README
+links each research entry to its public portfolio record.
 
-```sh
-python render_profile.py
-```
+- Two awards total $2,000: Blinkit $1,500 and Kraken $500.
+- Reports and acknowledgements are not described as bounty awards.
+- Google's Chrome DevTools MCP fix is described as submitted, not merged or
+  released.
+- NorthCap findings retain their authorised-testing context.
+- Meesho has no stated bounty or vendor acknowledgement.
+- The PenTest+ learning path is issued by TryHackMe; it is not described as a
+  CompTIA certification.
+- swiftPentest is the only featured project and Jatin's role is Contributor.
 
-This regenerates `activity.svg`, `stats.svg` and `stack.svg` from the saved data snapshot.
-Commit changes to the script and assets together. Edit `README.md` for the terminal prompts, links and projects.
-The daily workflow only refreshes the two activity cards and their data snapshot.
+Review these sources before changing claims. Keep confidential reproduction
+details out of this public profile. Organisation logo provenance is recorded
+in `profile-assets/SOURCES.md`; preserve the supplied marks and their colours.
 
-## Maintaining the portrait
+## Retired activity display
 
-`jatin-ascii.png` is the approved AI-generated grayscale ASCII-style portrait based on Jatin's GitHub profile photograph.
-The PNG is stored intact. It is a raster illustration with a character-art appearance, not live ASCII text.
+The contribution calendar, streak statistics and monthly contribution charts
+are no longer embedded in the README. GitHub already supplies its native
+contribution calendar below the profile content.
 
-`render_portrait.py` embeds that PNG inside a self-contained `portrait.svg`.
-The SVG adds a dark terminal frame, three small status dots, a caption and a six-second repeating reveal.
-It does not alter the source image or fetch external content.
+The old `activity.svg`, `stats.svg`, `stack.svg`, `activity.json` and their
+Python generators are retained as historical assets. The old refresh workflow
+is now manual-only, so it no longer commits unused activity snapshots every
+day or on Python changes. Running it manually only updates those historical
+cards; it does not rebuild or overwrite the new README or cover artwork.
 
-To change the frame, caption or timing, edit that script and run:
+The original `jatin-ascii.png` and `portrait.svg` are retained intact. The new
+README does not repeat the portrait already displayed by GitHub's profile
+sidebar.
 
-```sh
-python render_portrait.py
-```
+## Maintenance reference
 
-To use a different portrait, replace `jatin-ascii.png`, rerun the script and commit both files.
-The portrait is independent of the daily activity refresh.
-Reduced-motion preferences disable the reveal and display the complete portrait.
-SVG viewers without animation support also show the complete portrait.
-
-## Design reference
-
-The terminal layout takes visual inspiration from [AVIVASHISHTA29's profile](https://github.com/AVIVASHISHTA29/AVIVASHISHTA29).
-The implementation is original. The portrait, links, projects and activity data belong to Jatin's version.
-All graphics include accessible descriptions. The statistics and badges use system monospace fonts.
-GitHub's image cache can take time to display a fresh version.
-
-GitHub reference: [Managing your profile README](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme).
+[GitHub's profile README documentation](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme).

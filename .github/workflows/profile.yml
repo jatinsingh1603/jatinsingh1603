@@ -1,13 +1,7 @@
-name: Refresh profile cards
+name: Legacy profile cards (manual)
 
 on:
-  schedule:
-    - cron: '17 2 * * *'
   workflow_dispatch:
-  push:
-    paths:
-      - '*.py'
-      - '.github/workflows/profile.yml'
 
 permissions: {}
 
