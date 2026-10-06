@@ -1,70 +1,62 @@
-# Profile maintenance
+# Visual profile maintenance
 
-This public repository is named `jatinsingh1603`, so GitHub renders its root
-`README.md` on the account profile.
+The root README renders on the GitHub account profile. It is a graphic-first
+casebook: a cinematic cover, illustrated research folders, a security and
+automation machine, recognition objects and four graphic navigation buttons.
+Only one short instruction is native prose. Every large panel is a link.
 
-## The case-file design
+## Artwork
 
-The README shares the portfolio's red (`#ed3025`), black (`#101012`) and ivory
-palette. It uses native Markdown and HTML for readable text, links, tables and
-expandable evidence. The cover is a small, self-contained SVG, with a separate
-mobile composition selected by a `picture` element.
+The palette matches the portfolio: red `#ed3025`, black `#101012`, ivory
+`#f7f5f1`. Self-contained SVG panels have separate mobile compositions selected
+below 600px. Alt text conveys the same facts without images. Full factual
+records and links live in `CASEBOOK.md`.
 
-Regenerate the original cover artwork with Python's standard library:
+Regenerate code-native artwork with Python's standard library:
 
 ```sh
-python3 render_case_art.py
+python3 render_evidence_art.py
+python3 render_system_art.py
+python3 render_awards_art.py
+python3 render_link_art.py
 ```
 
-Commit both `profile-assets/case-header.svg` and
-`profile-assets/case-header-mobile.svg` with generator changes. A single
-six-second trace introduces the evidence folder and workflow; reduced-motion
-preferences disable the animation. The complete illustration remains visible
-when animation is unavailable. No remote fonts or scripts are needed.
+Commit each generator and its corresponding files in `profile-assets` together.
+No remote fonts, JavaScript, third-party image widgets or live statistics APIs
+are required. Artwork uses complete static frames; motion is optional.
 
-Four organisation marks have a light SVG backing so their original dark
-lettering remains readable in GitHub's light and dark themes. Regenerate the
-backings from the unmodified source logos with `python3 render_logo_badges.py`.
+`profile-assets/cinematic-cover.jpg` is project artwork created with the built-in
+image generation tool and exported as a 1536 × 1024 progressive JPEG. Generation
+brief: a premium cinematic black detective folder with an ivory fingerprint
+sheet, red glass magnifier, brushed-metal combination lock, red glass shield
+and connected chrome automation nodes, black/red/ivory palette and typography
+reading “JATIN KUMAR SINGH / SECURITY / + AUTOMATION”. No portrait, invented
+company mark or fake evidence appears in the illustration.
 
-GitHub controls the surrounding profile layout and typography. Source and image
-links are relative to this repository, so the README also previews on a branch.
+Organisation marks retain their original colours and proportions. Their
+provenance is recorded in `profile-assets/SOURCES.md`. The illustrated trophies,
+seal and diploma are original visual summaries, not official credential badges.
 
-## Content and evidence
+## Content sources
 
-The October 2026 portfolio records in `jatinsingh1603/Portfolio/content` supply
-the current career, findings, projects, awards and qualifications. The README
-links each research entry to its public portfolio record.
+The October 2026 records in `jatinsingh1603/Portfolio/content` supply the current
+career, findings, project, awards and qualifications. Before changing facts,
+review those sources and the current résumé.
 
-- Two awards total $2,000: Blinkit $1,500 and Kraken $500.
-- Reports and acknowledgements are not described as bounty awards.
-- Google's Chrome DevTools MCP fix is described as submitted, not merged or
-  released.
-- NorthCap findings retain their authorised-testing context.
+- Exactly two awarded bounties total $2,000: Blinkit $1,500 and Kraken $500.
+- Reports and acknowledgements are not bounty awards.
+- Google's Chrome DevTools MCP fix is submitted, not claimed merged or released.
+- NorthCap findings retain authorised-testing context.
 - Meesho has no stated bounty or vendor acknowledgement.
-- The PenTest+ learning path is issued by TryHackMe; it is not described as a
-  CompTIA certification.
-- swiftPentest is the only featured project and Jatin's role is Contributor.
+- The PenTest+ learning path is from TryHackMe, not a CompTIA certification.
+- swiftPentest is the only featured project; Jatin's role is Contributor.
+- NorthCap graduation is expected in 2027, not completed.
 
-Review these sources before changing claims. Keep confidential reproduction
-details out of this public profile. Organisation logo provenance is recorded
-in `profile-assets/SOURCES.md`; preserve the supplied marks and their colours.
+Do not put private endpoints or exploit reproduction details in this public repo.
 
-## Retired activity display
+## Historical assets
 
-The contribution calendar, streak statistics and monthly contribution charts
-are no longer embedded in the README. GitHub already supplies its native
-contribution calendar below the profile content.
-
-The old `activity.svg`, `stats.svg`, `stack.svg`, `activity.json` and their
-Python generators are retained as historical assets. The old refresh workflow
-is now manual-only, so it no longer commits unused activity snapshots every
-day or on Python changes. Running it manually only updates those historical
-cards; it does not rebuild or overwrite the new README or cover artwork.
-
-The original `jatin-ascii.png` and `portrait.svg` are retained intact. The new
-README does not repeat the portrait already displayed by GitHub's profile
-sidebar.
-
-## Maintenance reference
-
-[GitHub's profile README documentation](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme).
+The former cover, portrait, calendar, streak cards, monthly charts and generators
+remain as historical source files. None is embedded in the new README. GitHub
+already displays the native contribution calendar and sidebar portrait.
+The old refresh workflow stays manual-only and cannot overwrite this layout.
