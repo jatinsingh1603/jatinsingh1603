@@ -12,4 +12,8 @@ sponsorship, employment, endorsement or open-source trademark licence is asserte
 
 Google and the Google logo are trademarks of Google LLC. Other marks belong to their respective owners.
 
+The `*-badge.svg` files add an ivory rounded backing and padding around the
+unmodified marks. They preserve the original colours and proportions and
+embed all image data locally. Regenerate them with `render_logo_badges.py`.
+
 Meta and IRCTC use readable organisation names in the profile, rather than substituted or unofficial artwork.
