@@ -1,5 +1,8 @@
 <a href="https://jatin.swiftsane.com/">
-  <img src="profile-assets/cinematic-cover.jpg" alt="Jatin Kumar Singh. Security and automation. A cinematic evidence folder, fingerprint, magnifying lens, combination lock and connected automation nodes. Open the portfolio." width="100%" />
+  <picture>
+    <source media="(max-width: 600px)" srcset="profile-assets/suitcase-cover-mobile.svg" />
+    <img src="profile-assets/suitcase-cover.svg" alt="Jatin Kumar Singh, Information Security Analyst. An animated suitcase combination lock cycles through security, automation, bug bounty, red teaming, web and API testing, mobile VAPT, log analysis, AI agents and GRC. Open the portfolio." width="100%" />
+  </picture>
 </a>
 
 <p align="center">
@@ -7,7 +10,7 @@
   <a href="https://jatin.swiftsane.com/resume/"><img src="profile-assets/link-resume.svg" alt="Read my résumé" width="48%" /></a>
 </p>
 
-<p align="center"><strong>Click a graphic to open the details.</strong></p>
+<p align="center"><strong>Open a case to see the details.</strong></p>
 
 <a href="CASEBOOK.md#security-research">
   <picture>

@@ -66,7 +66,7 @@ An AI-driven web application penetration testing platform with **12+ specialised
 | E-Business | NPTEL |
 | DSA with C | Ducat India |
 
-The PenTest+ entry is a TryHackMe learning path, not a CompTIA-issued certification. Profile illustrations are original artwork, not official credential badges.
+The PenTest+ entry is a TryHackMe learning path, not a CompTIA-issued certification. Award illustrations are original artwork. The CRTP panel uses Altered Security's official credential mark.
 
 ## Education
 

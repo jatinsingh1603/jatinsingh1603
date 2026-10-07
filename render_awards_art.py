@@ -3,8 +3,9 @@
 
 Run: python3 render_awards_art.py
 Only the two recognition-board SVGs are written. No network or dependencies.
-The illustrated seal and medals are decorative, not official credential marks.
+Award illustrations are original; CRTP uses the official Altered Security mark.
 """
+from base64 import b64encode
 from html import escape
 from math import cos, sin, pi
 from pathlib import Path
@@ -110,26 +111,21 @@ def award_card(x, y, width, height, icon, placement, event, detail="", mobile=Fa
     return f'<g transform="translate({x} {y})">{content}</g>'
 
 
-def seal(cx, cy, radius):
-    result = f'<path d="M{cx - 58} {cy + 51}l-18 105 61-26 20 25 7-104Z" fill="#ba241b"/>'
-    result += f'<path d="M{cx + 58} {cy + 51}l18 105-61-26-20 25-7-104Z" fill="{RED}"/>'
-    result += star(cx, cy, radius, radius - 11, 18)
-    result += f'<circle cx="{cx}" cy="{cy}" r="{radius - 18}" fill="{PAPER}"/>'
-    result += f'<circle cx="{cx}" cy="{cy}" r="{radius - 29}" fill="none" stroke="{RED}" stroke-width="2"/>'
-    result += f'<g transform="translate({cx - 36} {cy - 39})"><path d="M14 34V20a22 22 0 0 1 44 0v14" fill="none" stroke="{INK}" stroke-width="8"/><rect y="29" width="72" height="54" rx="10" fill="{INK}"/><circle cx="36" cy="52" r="7" fill="{PAPER}"/><path d="M36 53v14" stroke="{PAPER}" stroke-width="5"/></g>'
-    return result
+def crtp_mark():
+    data = b64encode((OUT / 'crtp-official.png').read_bytes()).decode()
+    return f'<image x="8" y="20" width="245" height="290" preserveAspectRatio="xMidYMid meet" xlink:href="data:image/png;base64,{data}"/>'
 
 
 def credential_card(x, y, width, height, mobile=False):
     result = rect(0, 0, width, height, PAPER, 24)
     if mobile:
-        result += seal(132, 156, 89)
+        result += crtp_mark()
         result += text(266, 113, "CRTP", 76, INK, 700)
         result += text(266, 167, "Certified Red Team", 32, INK)
         result += text(266, 210, "Professional", 32, INK)
         result += text(266, 268, "Altered Security", 32, "#a42119", 700)
     else:
-        result += seal(133, 145, 91)
+        result += crtp_mark()
         result += text(272, 101, "CRTP", 76, INK, 700)
         result += text(274, 153, "Certified Red Team", 28, INK)
         result += text(274, 194, "Professional", 28, INK)
@@ -162,12 +158,12 @@ DESCRIPTION = (
     "Certified Red Team Professional from Altered Security. "
     "B.Tech Computer Science and Engineering, Cyber Security specialisation, "
     "The NorthCap University, expected 2027, CGPA 8.31. "
-    "Original illustrative award objects and seal, not official credential badges."
+    "Original illustrative award objects. Official CRTP mark from Altered Security."
 )
 
 
 def document(width, height, body):
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="recognition-title recognition-desc">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="recognition-title recognition-desc">
 <title id="recognition-title">Jatin Kumar Singh / Recognition and qualifications</title>
 <desc id="recognition-desc">{escape(DESCRIPTION)}</desc>
 <style>text {{ font-family: Arial, Helvetica, sans-serif; }}</style>

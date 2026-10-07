@@ -1,41 +1,46 @@
 # Visual profile maintenance
 
-The root README renders on the GitHub account profile. It is a graphic-first
-casebook: a cinematic cover, illustrated research folders, a security and
-automation machine, recognition objects and four graphic navigation buttons.
-Only one short instruction is native prose. Every large panel is a link.
+The root README renders on the GitHub account profile. Its opening now shares
+the portfolio's physical suitcase and rolling combination lock. The native
+page's palette, formal Arial typography, rounded case, ivory wheels, fixed
+seam and dark wheel shading carry through to the GitHub artwork.
 
-## Artwork
+## Artwork and motion
 
-The palette matches the portfolio: red `#ed3025`, black `#101012`, ivory
-`#f7f5f1`. Self-contained SVG panels have separate mobile compositions selected
-below 600px. Alt text conveys the same facts without images. Full factual
-records and links live in `CASEBOOK.md`.
+The palette is red `#ed3025`, black `#101012`, ivory `#f7f5f1`. Every large
+panel links to details. Full factual records and links live in `CASEBOOK.md`.
+The opening and illustrated panels have separate mobile compositions selected
+below 600px. Alt text preserves the content when images are unavailable.
 
-Regenerate code-native artwork with Python's standard library:
+Regenerate the code-native artwork:
 
 ```sh
-python3 render_evidence_art.py
+python3 render_suitcase_art.py
 python3 render_system_art.py
-python3 render_awards_art.py
 python3 render_link_art.py
+python3 render_evidence_art.py
+python3 render_awards_art.py
 ```
 
-Commit each generator and its corresponding files in `profile-assets` together.
-No remote fonts, JavaScript, third-party image widgets or live statistics APIs
-are required. Artwork uses complete static frames; motion is optional.
+The suitcase wheels continuously cycle through Security, Automation, Bug Bounty,
+Red Teaming, Web & API, Mobile VAPT, Log Analysis, AI Agents and GRC. The wheels
+pause for reading and stagger their smooth transitions. The system illustration
+uses a quiet signal travelling through its existing workflow connections.
+Numbers and research outcomes remain fixed; motion never simulates live results.
 
-`profile-assets/cinematic-cover.jpg` is project artwork created with the built-in
-image generation tool and exported as a 1536 × 1024 progressive JPEG. Generation
-brief: a premium cinematic black detective folder with an ivory fingerprint
-sheet, red glass magnifier, brushed-metal combination lock, red glass shield
-and connected chrome automation nodes, black/red/ivory palette and typography
-reading “JATIN KUMAR SINGH / SECURITY / + AUTOMATION”. No portrait, invented
-company mark or fake evidence appears in the illustration.
+Both animations use self-contained SVG/CSS, with no runtime JavaScript, external
+fonts, external image service or recurring workflow. Reduced-motion preferences
+stop animation and preserve a complete static composition. Check actual playback
+in the GitHub README after changing animation code; a successful image load alone
+does not verify animation. The repository's standalone image viewer may differ
+from the README renderer.
 
-Organisation marks retain their original colours and proportions. Their
-provenance is recorded in `profile-assets/SOURCES.md`. The illustrated trophies,
-seal and diploma are original visual summaries, not official credential badges.
+LinkedIn's navigation mark comes from its official brand download. The CRTP
+panel uses the official Altered Security mark in place of the illustrated seal. The portfolio
+link reuses the portfolio's original BrandMark geometry. Organisation marks
+retain their colours and proportions; provenance lives in
+`profile-assets/SOURCES.md`. The illustration generators and their SVG outputs
+must be committed together.
 
 ## Content sources
 
@@ -56,7 +61,7 @@ Do not put private endpoints or exploit reproduction details in this public repo
 
 ## Historical assets
 
-The former cover, portrait, calendar, streak cards, monthly charts and generators
+The former photographic cover, portrait, calendar, streak cards, monthly charts and generators
 remain as historical source files. None is embedded in the new README. GitHub
 already displays the native contribution calendar and sidebar portrait.
 The old refresh workflow stays manual-only and cannot overwrite this layout.
