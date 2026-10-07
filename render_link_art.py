@@ -29,9 +29,9 @@ def linkedin_mark() -> str:
     nested.attrib.update({'x': '28', 'y': '26.75', 'width': '50', 'height': '42.5', 'preserveAspectRatio': 'xMidYMid meet'})
     return '<rect x="19" y="16" width="68" height="64" rx="12" fill="#f7f5f1"/>' + ET.tostring(nested, encoding='unicode')
 
-def validate(svg: str) -> None:
+def validate(svg: str, view_box: str = '0 0 400 96') -> None:
     root = ET.fromstring(svg)
-    if root.attrib.get('viewBox') != '0 0 400 96':
+    if root.attrib.get('viewBox') != view_box:
         raise ValueError('Unexpected navigation dimensions')
     for node in root.iter():
         if node.tag.rsplit('}', 1)[-1] in {'script', 'foreignObject'}:
@@ -43,7 +43,28 @@ def validate(svg: str) -> None:
             if local in {'href', 'src'} and not value.startswith('data:image/png;base64,'):
                 raise ValueError('External SVG resource')
 
+def sound_link() -> None:
+    # A destination link, not a simulated player running inside GitHub.
+    svg = '''<svg xmlns="http://www.w3.org/2000/svg" width="440" height="108" viewBox="0 0 440 108" role="img" aria-labelledby="title desc">
+<title id="title">Enter with sound</title>
+<desc id="desc">Open the cinematic portfolio on jatin.swiftsane.com.</desc>
+<rect x="1" y="1" width="438" height="106" rx="18" fill="#141416" stroke="#ed3025" stroke-width="2"/>
+<rect x="18" y="24" width="60" height="60" rx="15" fill="#ed3025"/>
+<g fill="none" stroke="#101012" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+<path d="M31 48h8l10-8v28l-10-8h-8z"/>
+<path d="M56 47a10 10 0 0 1 0 14M61 42a17 17 0 0 1 0 24"/>
+</g>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="96" y="48" fill="#f7f5f1" font-size="30" font-weight="600">Enter with sound</text>
+<text x="96" y="78" fill="#d8cdcb" font-size="20">Open the cinematic portfolio</text>
+</g>
+</svg>'''
+    validate(svg, '0 0 440 108')
+    (OUT / 'link-sound.svg').write_text(svg + '\n')
+    print('link-sound.svg: 440 x 108, validated')
+
 def main() -> None:
+    sound_link()
     for name, label in LABELS.items():
         if name == 'portfolio':
             icon = PORTFOLIO_MARK
