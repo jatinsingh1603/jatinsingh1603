@@ -6,10 +6,6 @@
 </a>
 
 <p align="center">
-  <a href="https://jatin.swiftsane.com/"><img src="profile-assets/link-sound.svg" alt="Enter with sound. Open the cinematic portfolio. Tap Play music on the website if needed." width="440" /></a>
-</p>
-
-<p align="center">
   <a href="https://jatin.swiftsane.com/"><img src="profile-assets/link-portfolio.svg" alt="Explore my portfolio" width="48%" /></a>
   <a href="https://jatin.swiftsane.com/resume/"><img src="profile-assets/link-resume.svg" alt="Read my résumé" width="48%" /></a>
 </p>
