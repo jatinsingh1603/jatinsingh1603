@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="800" viewBox="0 0 760 800" role="img" aria-labelledby="title desc">
+<title id="title">Jatin Kumar Singh · Information Security Analyst</title>
+<desc id="desc">The same mechanical suitcase lock as Jatin's portfolio, continuously rolling through Security, Automation, Bug Bounty, Red Teaming, Web and API, Mobile VAPT, Log Analysis, AI Agents, and GRC. Each skill holds for four seconds. Reduced-motion preferences display Security without movement.</desc>
+<style>text{font-family:Arial,Helvetica,sans-serif}
+.roller { animation-duration: 46.8s; animation-iteration-count: infinite;
+ animation-timing-function: cubic-bezier(.65,0,.35,1); transform: translateY(0px); }
+.wheel-0 { animation-name:roll-0 }
+@keyframes roll-0 { 0% { transform:translateY(0px) } 8.54700855% { transform:translateY(0px) } 10.47008547% { transform:translateY(-128px) } 19.65811966% { transform:translateY(-128px) } 21.58119658% { transform:translateY(-256px) } 30.76923077% { transform:translateY(-256px) } 32.69230769% { transform:translateY(-384px) } 41.88034188% { transform:translateY(-384px) } 43.80341880% { transform:translateY(-512px) } 52.99145299% { transform:translateY(-512px) } 54.91452991% { transform:translateY(-640px) } 64.10256410% { transform:translateY(-640px) } 66.02564103% { transform:translateY(-768px) } 75.21367521% { transform:translateY(-768px) } 77.13675214% { transform:translateY(-896px) } 86.32478632% { transform:translateY(-896px) } 88.24786325% { transform:translateY(-1024px) } 97.43589744% { transform:translateY(-1024px) } 99.35897436% { transform:translateY(-1152px) } 100% { transform:translateY(-1152px) } }
+.wheel-1 { animation-name:roll-1 }
+@keyframes roll-1 { 0% { transform:translateY(0px) } 8.60042735% { transform:translateY(0px) } 10.52350427% { transform:translateY(-128px) } 19.71153846% { transform:translateY(-128px) } 21.63461538% { transform:translateY(-256px) } 30.82264957% { transform:translateY(-256px) } 32.74572650% { transform:translateY(-384px) } 41.93376068% { transform:translateY(-384px) } 43.85683761% { transform:translateY(-512px) } 53.04487179% { transform:translateY(-512px) } 54.96794872% { transform:translateY(-640px) } 64.15598291% { transform:translateY(-640px) } 66.07905983% { transform:translateY(-768px) } 75.26709402% { transform:translateY(-768px) } 77.19017094% { transform:translateY(-896px) } 86.37820513% { transform:translateY(-896px) } 88.30128205% { transform:translateY(-1024px) } 97.48931624% { transform:translateY(-1024px) } 99.41239316% { transform:translateY(-1152px) } 100% { transform:translateY(-1152px) } }
+.wheel-2 { animation-name:roll-2 }
+@keyframes roll-2 { 0% { transform:translateY(0px) } 8.65384615% { transform:translateY(0px) } 10.57692308% { transform:translateY(-128px) } 19.76495726% { transform:translateY(-128px) } 21.68803419% { transform:translateY(-256px) } 30.87606838% { transform:translateY(-256px) } 32.79914530% { transform:translateY(-384px) } 41.98717949% { transform:translateY(-384px) } 43.91025641% { transform:translateY(-512px) } 53.09829060% { transform:translateY(-512px) } 55.02136752% { transform:translateY(-640px) } 64.20940171% { transform:translateY(-640px) } 66.13247863% { transform:translateY(-768px) } 75.32051282% { transform:translateY(-768px) } 77.24358974% { transform:translateY(-896px) } 86.43162393% { transform:translateY(-896px) } 88.35470085% { transform:translateY(-1024px) } 97.54273504% { transform:translateY(-1024px) } 99.46581197% { transform:translateY(-1152px) } 100% { transform:translateY(-1152px) } }
+.wheel-3 { animation-name:roll-3 }
+@keyframes roll-3 { 0% { transform:translateY(0px) } 8.70726496% { transform:translateY(0px) } 10.63034188% { transform:translateY(-128px) } 19.81837607% { transform:translateY(-128px) } 21.74145299% { transform:translateY(-256px) } 30.92948718% { transform:translateY(-256px) } 32.85256410% { transform:translateY(-384px) } 42.04059829% { transform:translateY(-384px) } 43.96367521% { transform:translateY(-512px) } 53.15170940% { transform:translateY(-512px) } 55.07478632% { transform:translateY(-640px) } 64.26282051% { transform:translateY(-640px) } 66.18589744% { transform:translateY(-768px) } 75.37393162% { transform:translateY(-768px) } 77.29700855% { transform:translateY(-896px) } 86.48504274% { transform:translateY(-896px) } 88.40811966% { transform:translateY(-1024px) } 97.59615385% { transform:translateY(-1024px) } 99.51923077% { transform:translateY(-1152px) } 100% { transform:translateY(-1152px) } }
+.wheel-4 { animation-name:roll-4 }
+@keyframes roll-4 { 0% { transform:translateY(0px) } 8.76068376% { transform:translateY(0px) } 10.68376068% { transform:translateY(-128px) } 19.87179487% { transform:translateY(-128px) } 21.79487179% { transform:translateY(-256px) } 30.98290598% { transform:translateY(-256px) } 32.90598291% { transform:translateY(-384px) } 42.09401709% { transform:translateY(-384px) } 44.01709402% { transform:translateY(-512px) } 53.20512821% { transform:translateY(-512px) } 55.12820513% { transform:translateY(-640px) } 64.31623932% { transform:translateY(-640px) } 66.23931624% { transform:translateY(-768px) } 75.42735043% { transform:translateY(-768px) } 77.35042735% { transform:translateY(-896px) } 86.53846154% { transform:translateY(-896px) } 88.46153846% { transform:translateY(-1024px) } 97.64957265% { transform:translateY(-1024px) } 99.57264957% { transform:translateY(-1152px) } 100% { transform:translateY(-1152px) } }
+.wheel-5 { animation-name:roll-5 }
+@keyframes roll-5 { 0% { transform:translateY(0px) } 8.81410256% { transform:translateY(0px) } 10.73717949% { transform:translateY(-128px) } 19.92521368% { transform:translateY(-128px) } 21.84829060% { transform:translateY(-256px) } 31.03632479% { transform:translateY(-256px) } 32.95940171% { transform:translateY(-384px) } 42.14743590% { transform:translateY(-384px) } 44.07051282% { transform:translateY(-512px) } 53.25854701% { transform:translateY(-512px) } 55.18162393% { transform:translateY(-640px) } 64.36965812% { transform:translateY(-640px) } 66.29273504% { transform:translateY(-768px) } 75.48076923% { transform:translateY(-768px) } 77.40384615% { transform:translateY(-896px) } 86.59188034% { transform:translateY(-896px) } 88.51495726% { transform:translateY(-1024px) } 97.70299145% { transform:translateY(-1024px) } 99.62606838% { transform:translateY(-1152px) } 100% { transform:translateY(-1152px) } }
+.wheel-6 { animation-name:roll-6 }
+@keyframes roll-6 { 0% { transform:translateY(0px) } 8.86752137% { transform:translateY(0px) } 10.79059829% { transform:translateY(-128px) } 19.97863248% { transform:translateY(-128px) } 21.90170940% { transform:translateY(-256px) } 31.08974359% { transform:translateY(-256px) } 33.01282051% { transform:translateY(-384px) } 42.20085470% { transform:translateY(-384px) } 44.12393162% { transform:translateY(-512px) } 53.31196581% { transform:translateY(-512px) } 55.23504274% { transform:translateY(-640px) } 64.42307692% { transform:translateY(-640px) } 66.34615385% { transform:translateY(-768px) } 75.53418803% { transform:translateY(-768px) } 77.45726496% { transform:translateY(-896px) } 86.64529915% { transform:translateY(-896px) } 88.56837607% { transform:translateY(-1024px) } 97.75641026% { transform:translateY(-1024px) } 99.67948718% { transform:translateY(-1152px) } 100% { transform:translateY(-1152px) } }
+.wheel-7 { animation-name:roll-7 }
+@keyframes roll-7 { 0% { transform:translateY(0px) } 8.92094017% { transform:translateY(0px) } 10.84401709% { transform:translateY(-128px) } 20.03205128% { transform:translateY(-128px) } 21.95512821% { transform:translateY(-256px) } 31.14316239% { transform:translateY(-256px) } 33.06623932% { transform:translateY(-384px) } 42.25427350% { transform:translateY(-384px) } 44.17735043% { transform:translateY(-512px) } 53.36538462% { transform:translateY(-512px) } 55.28846154% { transform:translateY(-640px) } 64.47649573% { transform:translateY(-640px) } 66.39957265% { transform:translateY(-768px) } 75.58760684% { transform:translateY(-768px) } 77.51068376% { transform:translateY(-896px) } 86.69871795% { transform:translateY(-896px) } 88.62179487% { transform:translateY(-1024px) } 97.80982906% { transform:translateY(-1024px) } 99.73290598% { transform:translateY(-1152px) } 100% { transform:translateY(-1152px) } }
+.wheel-8 { animation-name:roll-8 }
+@keyframes roll-8 { 0% { transform:translateY(0px) } 8.97435897% { transform:translateY(0px) } 10.89743590% { transform:translateY(-128px) } 20.08547009% { transform:translateY(-128px) } 22.00854701% { transform:translateY(-256px) } 31.19658120% { transform:translateY(-256px) } 33.11965812% { transform:translateY(-384px) } 42.30769231% { transform:translateY(-384px) } 44.23076923% { transform:translateY(-512px) } 53.41880342% { transform:translateY(-512px) } 55.34188034% { transform:translateY(-640px) } 64.52991453% { transform:translateY(-640px) } 66.45299145% { transform:translateY(-768px) } 75.64102564% { transform:translateY(-768px) } 77.56410256% { transform:translateY(-896px) } 86.75213675% { transform:translateY(-896px) } 88.67521368% { transform:translateY(-1024px) } 97.86324786% { transform:translateY(-1024px) } 99.78632479% { transform:translateY(-1152px) } 100% { transform:translateY(-1152px) } }
+.wheel-9 { animation-name:roll-9 }
+@keyframes roll-9 { 0% { transform:translateY(0px) } 9.02777778% { transform:translateY(0px) } 10.95085470% { transform:translateY(-128px) } 20.13888889% { transform:translateY(-128px) } 22.06196581% { transform:translateY(-256px) } 31.25000000% { transform:translateY(-256px) } 33.17307692% { transform:translateY(-384px) } 42.36111111% { transform:translateY(-384px) } 44.28418803% { transform:translateY(-512px) } 53.47222222% { transform:translateY(-512px) } 55.39529915% { transform:translateY(-640px) } 64.58333333% { transform:translateY(-640px) } 66.50641026% { transform:translateY(-768px) } 75.69444444% { transform:translateY(-768px) } 77.61752137% { transform:translateY(-896px) } 86.80555556% { transform:translateY(-896px) } 88.72863248% { transform:translateY(-1024px) } 97.91666667% { transform:translateY(-1024px) } 99.83974359% { transform:translateY(-1152px) } 100% { transform:translateY(-1152px) } }
+.wheel-10 { animation-name:roll-10 }
+@keyframes roll-10 { 0% { transform:translateY(0px) } 9.08119658% { transform:translateY(0px) } 11.00427350% { transform:translateY(-128px) } 20.19230769% { transform:translateY(-128px) } 22.11538462% { transform:translateY(-256px) } 31.30341880% { transform:translateY(-256px) } 33.22649573% { transform:translateY(-384px) } 42.41452991% { transform:translateY(-384px) } 44.33760684% { transform:translateY(-512px) } 53.52564103% { transform:translateY(-512px) } 55.44871795% { transform:translateY(-640px) } 64.63675214% { transform:translateY(-640px) } 66.55982906% { transform:translateY(-768px) } 75.74786325% { transform:translateY(-768px) } 77.67094017% { transform:translateY(-896px) } 86.85897436% { transform:translateY(-896px) } 88.78205128% { transform:translateY(-1024px) } 97.97008547% { transform:translateY(-1024px) } 99.89316239% { transform:translateY(-1152px) } 100% { transform:translateY(-1152px) } }
+.wheel-11 { animation-name:roll-11 }
+@keyframes roll-11 { 0% { transform:translateY(0px) } 9.13461538% { transform:translateY(0px) } 11.05769231% { transform:translateY(-128px) } 20.24572650% { transform:translateY(-128px) } 22.16880342% { transform:translateY(-256px) } 31.35683761% { transform:translateY(-256px) } 33.27991453% { transform:translateY(-384px) } 42.46794872% { transform:translateY(-384px) } 44.39102564% { transform:translateY(-512px) } 53.57905983% { transform:translateY(-512px) } 55.50213675% { transform:translateY(-640px) } 64.69017094% { transform:translateY(-640px) } 66.61324786% { transform:translateY(-768px) } 75.80128205% { transform:translateY(-768px) } 77.72435897% { transform:translateY(-896px) } 86.91239316% { transform:translateY(-896px) } 88.83547009% { transform:translateY(-1024px) } 98.02350427% { transform:translateY(-1024px) } 99.94658120% { transform:translateY(-1152px) } 100% { transform:translateY(-1152px) } }
+@media (prefers-reduced-motion: reduce) { .roller { animation:none!important; transform:translateY(0px)!important; } }</style>
+<defs>
+<linearGradient id="stage" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#f74435"/><stop offset=".48" stop-color="#ed3025"/><stop offset="1" stop-color="#db231a"/></linearGradient>
+<linearGradient id="case-cover" x1="0" y1="0" x2=".62" y2="1"><stop stop-color="#3c393e"/><stop offset=".35" stop-color="#151516"/><stop offset=".72" stop-color="#252528"/><stop offset="1" stop-color="#0b0b0c"/></linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2=".25" y2="1"><stop stop-color="#858186"/><stop offset=".18" stop-color="#4e4b50"/><stop offset=".51" stop-color="#141416"/><stop offset="1" stop-color="#4e4c52"/></linearGradient>
+<linearGradient id="reel-shade" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#000000" stop-opacity=".62"/><stop offset=".35" stop-color="#000000" stop-opacity="0"/><stop offset=".57" stop-color="#000000" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity=".56"/></linearGradient>
+<radialGradient id="ground-shadow"><stop stop-color="#3a0603" stop-opacity=".7"/><stop offset=".6" stop-color="#3a0603" stop-opacity=".34"/><stop offset="1" stop-color="#3a0603" stop-opacity="0"/></radialGradient>
+<clipPath id="slot"><rect width="50.5833" height="128" rx="5"/></clipPath>
+</defs>
+<rect width="760" height="800" rx="32" fill="url(#stage)"/>
+<g fill="#101012"><text x="46" y="139" font-size="60" font-weight="600" letter-spacing="-2">Jatin Kumar Singh</text><text x="48" y="193" font-size="34">Information Security Analyst</text></g>
+<rect x="630" y="218" width="75" height="75" rx="19" fill="#101012"/><g transform="translate(638 226) scale(0.9)"><rect width="64" height="64" rx="14" fill="#ed3025"/>
+<path d="M49 29A20 20 0 1 0 29 49V42A13 13 0 1 1 42 29H49Z" fill="#101012"/>
+<path d="M53 34H46A12 12 0 0 1 34 46V53A19 19 0 0 0 53 34Z" fill="#101012"/>
+<path d="M29 22a5 5 0 0 0-2.25 9.47L25 38h8l-1.75-6.53A5 5 0 0 0 29 22Z" fill="#101012"/></g>
+<ellipse cx="380.0" cy="686" rx="403.67999999999995" ry="63" fill="url(#ground-shadow)"/>
+<g transform="translate(32 361)"><g transform="translate(348.0 0)">
+<rect x="-115" y="-13" width="40" height="28" rx="7" fill="url(#metal)" stroke="#161618"/>
+<rect x="75" y="-13" width="40" height="28" rx="7" fill="url(#metal)" stroke="#161618"/>
+<path d="M-95-2v-25a18 18 0 0 1 18-18H77a18 18 0 0 1 18 18v25" fill="none" stroke="#131315" stroke-width="22"/>
+<path d="M-99-3v-25a20 20 0 0 1 20-20H79a20 20 0 0 1 20 20v25" fill="none" stroke="#68656a" stroke-width="2"/>
+</g>
+<rect x="1" y="15" width="694" height="288" rx="31" fill="#09090b" stroke="#793c34" stroke-width="2"/>
+<rect width="696" height="288" rx="31" fill="url(#case-cover)" stroke="#777175" stroke-width="2"/>
+<rect x="7" y="7" width="682" height="274" rx="26" fill="none" stroke="#ffffff" stroke-opacity=".09"/>
+<path d="M31 2h634" stroke="#ffffff" stroke-opacity=".32"/>
+<g transform="translate(20 20)"><circle r="5" fill="url(#metal)" stroke="#09090a"/><path d="M-2 0h4" stroke="#080809"/></g><g transform="translate(676 20)"><circle r="5" fill="url(#metal)" stroke="#09090a"/><path d="M-2 0h4" stroke="#080809"/></g><g transform="translate(20 268)"><circle r="5" fill="url(#metal)" stroke="#09090a"/><path d="M-2 0h4" stroke="#080809"/></g><g transform="translate(676 268)"><circle r="5" fill="url(#metal)" stroke="#09090a"/><path d="M-2 0h4" stroke="#080809"/></g>
+<text x="28" y="50" fill="#c2bebe" font-size="32" letter-spacing="1">SECURITY + AUTOMATION</text>
+<rect x="21" y="73" width="654" height="142" rx="10" fill="#070708" stroke="#09090a" stroke-width="2"/>
+<path d="M28 216h640" stroke="#736d72" stroke-width="2"/>
+<g transform="translate(28.0000 80)">
+<rect width="50.5833" height="128" rx="5" fill="#f7f5f1"/>
+<g clip-path="url(#slot)"><g class="roller wheel-0" fill="#161618" font-size="50" font-weight="700"><text x="25.2917" y="81.7500" text-anchor="middle"> </text><text x="25.2917" y="209.7500" text-anchor="middle"> </text><text x="25.2917" y="337.7500" text-anchor="middle"> </text><text x="25.2917" y="465.7500" text-anchor="middle">R</text><text x="25.2917" y="593.7500" text-anchor="middle"> </text><text x="25.2917" y="721.7500" text-anchor="middle">M</text><text x="25.2917" y="849.7500" text-anchor="middle">L</text><text x="25.2917" y="977.7500" text-anchor="middle"> </text><text x="25.2917" y="1105.7500" text-anchor="middle"> </text><text x="25.2917" y="1233.7500" text-anchor="middle"> </text></g></g>
+<rect width="50.5833" height="128" rx="5" fill="url(#reel-shade)"/>
+<path d="M0 64h50.5833" stroke="#000000" stroke-opacity=".17"/>
+<path d="M1 5v118" stroke="#ffffff" stroke-opacity=".22"/>
+</g>
+<g transform="translate(81.5833 80)">
+<rect width="50.5833" height="128" rx="5" fill="#f7f5f1"/>
+<g clip-path="url(#slot)"><g class="roller wheel-1" fill="#161618" font-size="50" font-weight="700"><text x="25.2917" y="81.7500" text-anchor="middle"> </text><text x="25.2917" y="209.7500" text-anchor="middle">A</text><text x="25.2917" y="337.7500" text-anchor="middle">B</text><text x="25.2917" y="465.7500" text-anchor="middle">E</text><text x="25.2917" y="593.7500" text-anchor="middle">W</text><text x="25.2917" y="721.7500" text-anchor="middle">O</text><text x="25.2917" y="849.7500" text-anchor="middle">O</text><text x="25.2917" y="977.7500" text-anchor="middle">A</text><text x="25.2917" y="1105.7500" text-anchor="middle"> </text><text x="25.2917" y="1233.7500" text-anchor="middle"> </text></g></g>
+<rect width="50.5833" height="128" rx="5" fill="url(#reel-shade)"/>
+<path d="M0 64h50.5833" stroke="#000000" stroke-opacity=".17"/>
+<path d="M1 5v118" stroke="#ffffff" stroke-opacity=".22"/>
+</g>
+<g transform="translate(135.1667 80)">
+<rect width="50.5833" height="128" rx="5" fill="#f7f5f1"/>
+<g clip-path="url(#slot)"><g class="roller wheel-2" fill="#161618" font-size="50" font-weight="700"><text x="25.2917" y="81.7500" text-anchor="middle">S</text><text x="25.2917" y="209.7500" text-anchor="middle">U</text><text x="25.2917" y="337.7500" text-anchor="middle">U</text><text x="25.2917" y="465.7500" text-anchor="middle">D</text><text x="25.2917" y="593.7500" text-anchor="middle">E</text><text x="25.2917" y="721.7500" text-anchor="middle">B</text><text x="25.2917" y="849.7500" text-anchor="middle">G</text><text x="25.2917" y="977.7500" text-anchor="middle">I</text><text x="25.2917" y="1105.7500" text-anchor="middle"> </text><text x="25.2917" y="1233.7500" text-anchor="middle">S</text></g></g>
+<rect width="50.5833" height="128" rx="5" fill="url(#reel-shade)"/>
+<path d="M0 64h50.5833" stroke="#000000" stroke-opacity=".17"/>
+<path d="M1 5v118" stroke="#ffffff" stroke-opacity=".22"/>
+</g>
+<g transform="translate(188.7500 80)">
+<rect width="50.5833" height="128" rx="5" fill="#f7f5f1"/>
+<g clip-path="url(#slot)"><g class="roller wheel-3" fill="#161618" font-size="50" font-weight="700"><text x="25.2917" y="81.7500" text-anchor="middle">E</text><text x="25.2917" y="209.7500" text-anchor="middle">T</text><text x="25.2917" y="337.7500" text-anchor="middle">G</text><text x="25.2917" y="465.7500" text-anchor="middle"> </text><text x="25.2917" y="593.7500" text-anchor="middle">B</text><text x="25.2917" y="721.7500" text-anchor="middle">I</text><text x="25.2917" y="849.7500" text-anchor="middle"> </text><text x="25.2917" y="977.7500" text-anchor="middle"> </text><text x="25.2917" y="1105.7500" text-anchor="middle"> </text><text x="25.2917" y="1233.7500" text-anchor="middle">E</text></g></g>
+<rect width="50.5833" height="128" rx="5" fill="url(#reel-shade)"/>
+<path d="M0 64h50.5833" stroke="#000000" stroke-opacity=".17"/>
+<path d="M1 5v118" stroke="#ffffff" stroke-opacity=".22"/>
+</g>
+<g transform="translate(242.3333 80)">
+<rect width="50.5833" height="128" rx="5" fill="#f7f5f1"/>
+<g clip-path="url(#slot)"><g class="roller wheel-4" fill="#161618" font-size="50" font-weight="700"><text x="25.2917" y="81.7500" text-anchor="middle">C</text><text x="25.2917" y="209.7500" text-anchor="middle">O</text><text x="25.2917" y="337.7500" text-anchor="middle"> </text><text x="25.2917" y="465.7500" text-anchor="middle">T</text><text x="25.2917" y="593.7500" text-anchor="middle"> </text><text x="25.2917" y="721.7500" text-anchor="middle">L</text><text x="25.2917" y="849.7500" text-anchor="middle">A</text><text x="25.2917" y="977.7500" text-anchor="middle">A</text><text x="25.2917" y="1105.7500" text-anchor="middle">G</text><text x="25.2917" y="1233.7500" text-anchor="middle">C</text></g></g>
+<rect width="50.5833" height="128" rx="5" fill="url(#reel-shade)"/>
+<path d="M0 64h50.5833" stroke="#000000" stroke-opacity=".17"/>
+<path d="M1 5v118" stroke="#ffffff" stroke-opacity=".22"/>
+</g>
+<g transform="translate(295.9167 80)">
+<rect width="50.5833" height="128" rx="5" fill="#f7f5f1"/>
+<g clip-path="url(#slot)"><g class="roller wheel-5" fill="#161618" font-size="50" font-weight="700"><text x="25.2917" y="81.7500" text-anchor="middle">U</text><text x="25.2917" y="209.7500" text-anchor="middle">M</text><text x="25.2917" y="337.7500" text-anchor="middle">B</text><text x="25.2917" y="465.7500" text-anchor="middle">E</text><text x="25.2917" y="593.7500" text-anchor="middle">&amp;</text><text x="25.2917" y="721.7500" text-anchor="middle">E</text><text x="25.2917" y="849.7500" text-anchor="middle">N</text><text x="25.2917" y="977.7500" text-anchor="middle">G</text><text x="25.2917" y="1105.7500" text-anchor="middle">R</text><text x="25.2917" y="1233.7500" text-anchor="middle">U</text></g></g>
+<rect width="50.5833" height="128" rx="5" fill="url(#reel-shade)"/>
+<path d="M0 64h50.5833" stroke="#000000" stroke-opacity=".17"/>
+<path d="M1 5v118" stroke="#ffffff" stroke-opacity=".22"/>
+</g>
+<g transform="translate(349.5000 80)">
+<rect width="50.5833" height="128" rx="5" fill="#f7f5f1"/>
+<g clip-path="url(#slot)"><g class="roller wheel-6" fill="#161618" font-size="50" font-weight="700"><text x="25.2917" y="81.7500" text-anchor="middle">R</text><text x="25.2917" y="209.7500" text-anchor="middle">A</text><text x="25.2917" y="337.7500" text-anchor="middle">O</text><text x="25.2917" y="465.7500" text-anchor="middle">A</text><text x="25.2917" y="593.7500" text-anchor="middle"> </text><text x="25.2917" y="721.7500" text-anchor="middle"> </text><text x="25.2917" y="849.7500" text-anchor="middle">A</text><text x="25.2917" y="977.7500" text-anchor="middle">E</text><text x="25.2917" y="1105.7500" text-anchor="middle">C</text><text x="25.2917" y="1233.7500" text-anchor="middle">R</text></g></g>
+<rect width="50.5833" height="128" rx="5" fill="url(#reel-shade)"/>
+<path d="M0 64h50.5833" stroke="#000000" stroke-opacity=".17"/>
+<path d="M1 5v118" stroke="#ffffff" stroke-opacity=".22"/>
+</g>
+<g transform="translate(403.0833 80)">
+<rect width="50.5833" height="128" rx="5" fill="#f7f5f1"/>
+<g clip-path="url(#slot)"><g class="roller wheel-7" fill="#161618" font-size="50" font-weight="700"><text x="25.2917" y="81.7500" text-anchor="middle">I</text><text x="25.2917" y="209.7500" text-anchor="middle">T</text><text x="25.2917" y="337.7500" text-anchor="middle">U</text><text x="25.2917" y="465.7500" text-anchor="middle">M</text><text x="25.2917" y="593.7500" text-anchor="middle">A</text><text x="25.2917" y="721.7500" text-anchor="middle">V</text><text x="25.2917" y="849.7500" text-anchor="middle">L</text><text x="25.2917" y="977.7500" text-anchor="middle">N</text><text x="25.2917" y="1105.7500" text-anchor="middle"> </text><text x="25.2917" y="1233.7500" text-anchor="middle">I</text></g></g>
+<rect width="50.5833" height="128" rx="5" fill="url(#reel-shade)"/>
+<path d="M0 64h50.5833" stroke="#000000" stroke-opacity=".17"/>
+<path d="M1 5v118" stroke="#ffffff" stroke-opacity=".22"/>
+</g>
+<g transform="translate(456.6667 80)">
+<rect width="50.5833" height="128" rx="5" fill="#f7f5f1"/>
+<g clip-path="url(#slot)"><g class="roller wheel-8" fill="#161618" font-size="50" font-weight="700"><text x="25.2917" y="81.7500" text-anchor="middle">T</text><text x="25.2917" y="209.7500" text-anchor="middle">I</text><text x="25.2917" y="337.7500" text-anchor="middle">N</text><text x="25.2917" y="465.7500" text-anchor="middle">I</text><text x="25.2917" y="593.7500" text-anchor="middle">P</text><text x="25.2917" y="721.7500" text-anchor="middle">A</text><text x="25.2917" y="849.7500" text-anchor="middle">Y</text><text x="25.2917" y="977.7500" text-anchor="middle">T</text><text x="25.2917" y="1105.7500" text-anchor="middle"> </text><text x="25.2917" y="1233.7500" text-anchor="middle">T</text></g></g>
+<rect width="50.5833" height="128" rx="5" fill="url(#reel-shade)"/>
+<path d="M0 64h50.5833" stroke="#000000" stroke-opacity=".17"/>
+<path d="M1 5v118" stroke="#ffffff" stroke-opacity=".22"/>
+</g>
+<g transform="translate(510.2500 80)">
+<rect width="50.5833" height="128" rx="5" fill="#f7f5f1"/>
+<g clip-path="url(#slot)"><g class="roller wheel-9" fill="#161618" font-size="50" font-weight="700"><text x="25.2917" y="81.7500" text-anchor="middle">Y</text><text x="25.2917" y="209.7500" text-anchor="middle">O</text><text x="25.2917" y="337.7500" text-anchor="middle">T</text><text x="25.2917" y="465.7500" text-anchor="middle">N</text><text x="25.2917" y="593.7500" text-anchor="middle">I</text><text x="25.2917" y="721.7500" text-anchor="middle">P</text><text x="25.2917" y="849.7500" text-anchor="middle">S</text><text x="25.2917" y="977.7500" text-anchor="middle">S</text><text x="25.2917" y="1105.7500" text-anchor="middle"> </text><text x="25.2917" y="1233.7500" text-anchor="middle">Y</text></g></g>
+<rect width="50.5833" height="128" rx="5" fill="url(#reel-shade)"/>
+<path d="M0 64h50.5833" stroke="#000000" stroke-opacity=".17"/>
+<path d="M1 5v118" stroke="#ffffff" stroke-opacity=".22"/>
+</g>
+<g transform="translate(563.8333 80)">
+<rect width="50.5833" height="128" rx="5" fill="#f7f5f1"/>
+<g clip-path="url(#slot)"><g class="roller wheel-10" fill="#161618" font-size="50" font-weight="700"><text x="25.2917" y="81.7500" text-anchor="middle"> </text><text x="25.2917" y="209.7500" text-anchor="middle">N</text><text x="25.2917" y="337.7500" text-anchor="middle">Y</text><text x="25.2917" y="465.7500" text-anchor="middle">G</text><text x="25.2917" y="593.7500" text-anchor="middle"> </text><text x="25.2917" y="721.7500" text-anchor="middle">T</text><text x="25.2917" y="849.7500" text-anchor="middle">I</text><text x="25.2917" y="977.7500" text-anchor="middle"> </text><text x="25.2917" y="1105.7500" text-anchor="middle"> </text><text x="25.2917" y="1233.7500" text-anchor="middle"> </text></g></g>
+<rect width="50.5833" height="128" rx="5" fill="url(#reel-shade)"/>
+<path d="M0 64h50.5833" stroke="#000000" stroke-opacity=".17"/>
+<path d="M1 5v118" stroke="#ffffff" stroke-opacity=".22"/>
+</g>
+<g transform="translate(617.4167 80)">
+<rect width="50.5833" height="128" rx="5" fill="#f7f5f1"/>
+<g clip-path="url(#slot)"><g class="roller wheel-11" fill="#161618" font-size="50" font-weight="700"><text x="25.2917" y="81.7500" text-anchor="middle"> </text><text x="25.2917" y="209.7500" text-anchor="middle"> </text><text x="25.2917" y="337.7500" text-anchor="middle"> </text><text x="25.2917" y="465.7500" text-anchor="middle"> </text><text x="25.2917" y="593.7500" text-anchor="middle"> </text><text x="25.2917" y="721.7500" text-anchor="middle"> </text><text x="25.2917" y="849.7500" text-anchor="middle">S</text><text x="25.2917" y="977.7500" text-anchor="middle"> </text><text x="25.2917" y="1105.7500" text-anchor="middle"> </text><text x="25.2917" y="1233.7500" text-anchor="middle"> </text></g></g>
+<rect width="50.5833" height="128" rx="5" fill="url(#reel-shade)"/>
+<path d="M0 64h50.5833" stroke="#000000" stroke-opacity=".17"/>
+<path d="M1 5v118" stroke="#ffffff" stroke-opacity=".22"/>
+</g>
+<text x="348.0" y="256" text-anchor="middle" fill="#c2bebe" font-size="32">INVESTIGATE. VALIDATE. AUTOMATE.</text>
+<g transform="translate(316.0 280)"><rect width="64" height="36" rx="6" fill="url(#metal)" stroke="#111113" stroke-width="2"/><rect x="18" y="9" width="28" height="17" rx="4" fill="#111113" stroke="#636167"/></g></g>
+</svg>
