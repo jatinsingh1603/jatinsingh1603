@@ -42,14 +42,6 @@ retain their colours and proportions; provenance lives in
 `profile-assets/SOURCES.md`. The illustration generators and their SVG outputs
 must be committed together.
 
-## Sound link
-
-The "Enter with sound" artwork beneath the suitcase links to the portfolio
-homepage. It is a website link, not an embedded GitHub audio player. The site
-uses its existing looping soundtrack and mute control. Browser autoplay rules
-may require a tap, and the site respects a previous session mute. Regenerate
-the button with `python3 render_link_art.py`.
-
 ## Content sources
 
 The October 2026 records in `jatinsingh1603/Portfolio/content` supply the current
